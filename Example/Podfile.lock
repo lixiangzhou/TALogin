@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TALogin (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TALogin (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TALogin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TALogin: 4af85eb8047473f76f0e609a9595399eee03deff
+
+PODFILE CHECKSUM: ec0474365782bfca748f9c1b048a12f4b8a53121
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,22 @@
+{
+  "name": "TALogin",
+  "version": "0.1.0",
+  "summary": "A short description of TALogin.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lixiangzhou/TALogin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lixiangzhou": "lixiangzhouno1@163.com"
+  },
+  "source": {
+    "git": "https://github.com/lixiangzhou/TALogin.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TALogin/Classes/**/*"
+}

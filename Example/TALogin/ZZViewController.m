@@ -7,6 +7,7 @@
 //
 
 #import "ZZViewController.h"
+#import "Target_LoginController.h"
 
 @interface ZZViewController ()
 
@@ -18,6 +19,11 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UIViewController *vc = [[Target_LoginController new] Action_LoginController:@{@"mobile": @"124", @"code": @124}];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 - (void)didReceiveMemoryWarning

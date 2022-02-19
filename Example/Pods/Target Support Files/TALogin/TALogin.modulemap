@@ -1,0 +1,6 @@
+framework module TALogin {
+  umbrella header "TALogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
